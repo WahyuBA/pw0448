@@ -1,0 +1,109 @@
+body
+{
+	background-image:url(Hacker.jpg); 
+}
+div.container
+header
+{
+padding: 1em;
+background-color:black; 
+border-bottom: 1px solid green;
+}
+img.logo
+{
+width: 550px;
+height: 65px;
+}
+img.gambar
+{
+position: relative;
+right: 0px;
+top: 0px;
+padding-left: 30em;
+width: 150px;
+height: 90px;
+}
+ul{
+	list-style-type: none;
+	margin : 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:black; 
+}
+li{
+	float: left;
+	border-right:1px solid green; 
+}
+
+li:last-child{
+	border-right: none;
+} 
+li a{
+	display: block;
+	color: rgb(0,236,71);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color:red; 
+}
+.active {
+	background-color: rgb(17,0,104);
+}
+.leftcolumn{
+	float: left;
+	width: 65%;
+}
+.rightcolumn{
+	float: left;
+	width: 25%
+	background-color:black;
+	padding-left: 20px;
+}
+img.sejarahinternet{
+	width: 100%;
+	height: 100%;
+}
+.fakeimg{
+	background-color: #aaa;
+	width: 90%;
+	padding: 20px;
+}
+.card{
+	border: 1px solid green;
+	background-color: black;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+.row:after{
+	content: "";
+	display:table;
+	clear:both;
+}
+p{
+	color: green;
+	text-align: justify;
+}
+h1{
+	color: green;
+	font-size: 15px;
+}
+h2{
+	font-size: 30px;
+	color: green;
+}
+@media screen and (max-width: 400px){
+	.leftcolumn, .rightcolumn{
+		width: 100%;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 400px){
+	.topnav,{
+		
+		float: none;
+		width: 100%;
+	}
+}
